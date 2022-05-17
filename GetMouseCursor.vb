@@ -1,4 +1,4 @@
-//Add to variables section
+'Add to variables section
 <DllImport(""user32.dll"")> _
     Public Shared Function GetCursorPos(<Out> ByRef lpPoint As POINT) As Boolean
     End Function
@@ -22,7 +22,7 @@
 					
 					
 					
-//Add to button code
+'Add to button code
 Dim lpPoint As POINT
 GetCursorPos(lpPoint)
 MsgBox(""Cursor Position: "" & CStr(lpPoint.X) & "","" & CStr(lpPoint.Y))"				
