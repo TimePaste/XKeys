@@ -25,6 +25,4 @@
 'Add to button code
 Dim lpPoint As POINT
 GetCursorPos(lpPoint)
-MsgBox(""Cursor Position: "" & CStr(lpPoint.X) & "","" & CStr(lpPoint.Y))"				
-					
-					
+MsgBox(""Cursor Position: "" & CStr(lpPoint.X) & "","" & CStr(lpPoint.Y))
